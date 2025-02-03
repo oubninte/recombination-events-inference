@@ -11,11 +11,10 @@
 #SBATCH --mail-type=FAIL
 
 # to run cmd example :
-  #for chrom in 22; do for rep in 1; do sbatch --export=ALL,chrom=${chrom},rep=${rep} Methode_H0_B.sh ; done; done
-  
-# Don't run rep of affected 
+  #for chrom in 22; do for rep in 1; do sbatch --export=ALL,chrom=${chrom},rep=${rep} **.sh ; done; done
+
 #don't forget to not exceed 1000 jobs
-    #for chrom in {1..22}; do for rep in {1..100}; do sbatch --export=ALL,chrom=${chrom},rep=${rep} Methode_H0_B.sh ; done; done
+
    
 
 echo "**************************** Import module ****************************"
